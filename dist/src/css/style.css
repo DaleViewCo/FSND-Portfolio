@@ -1,23 +1,22 @@
 <style>
-img, embed,
-object, video {
+img{
 	max-width: 100%;
 }
 
 img{
-	margin: auto; 
+	margin: auto;
 }
 
 .logo{
 	padding: 15px;
 }
 
-.name{
+.titleBig{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 50px;
 }
 
-.occupation{
+.titleSmall{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
 }
@@ -36,14 +35,13 @@ img{
 }
 
 .link{
-font-family: 'Open Sans', sans-serif;
-	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
 	text-align: center;
 }
 
 .col-sm-4{
 	text-align: center;
 }
-
 
 </style>

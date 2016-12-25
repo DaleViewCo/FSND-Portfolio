@@ -32,18 +32,19 @@ module.exports = function(grunt){
             'gruntfile.js',
             config.jsSrcDir + '*.js'
             ]
-        }
+        },
 
-        // watch:{
-        //     sass:{
-        //         files: config.scssDir + '**/*.scss',
-        //         tasks: ['sass']
-        //     }
-        // }
+        watch:{
+            copy:{
+                files: 'src/**',
+                tasks: ['copy']
+            }
+        }
     });
 
     grunt.registerTask('default',[
-        'jshint',
-        'copy'
+        //'jshint',
+        // 'copy',
+        'watch'
         ]);
 };
